@@ -1,0 +1,16 @@
+CREATE DATABASE hibernate;
+
+CREATE TABLE employee (
+   id INT NOT NULL AUTO_INCREMENT,
+   first_name VARCHAR(20) DEFAULT NULL,
+   last_name  VARCHAR(20) DEFAULT NULL,
+   salary     INT  DEFAULT NULL,
+   PRIMARY KEY (id)
+);
+
+CREATE TABLE student (
+   id INT NOT NULL AUTO_INCREMENT,
+   name_student VARCHAR(20) DEFAULT NULL,
+   phone_number  VARCHAR(20) DEFAULT NULL,
+   PRIMARY KEY (id)
+);
